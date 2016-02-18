@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>The Colored Egg</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<ul id="menu-dropdown" class="dropdown-content">
+  <li><a class="light-blue-text" href="sweets.html">Pastries & Sweets</a></li>
+  <li><a class="light-blue-text" href="breakfast.html">Breakfast</a></li>
+  <li><a class="light-blue-text" href="breads.html">Breads & Sandwiches</a></li>
+  <li><a class="light-blue-text" href="dinner.html">Dinner</a></li>
+  <li><a class="light-blue-text" href="sides.html">Veggies & Sides</a></li>
+  <li><a class="light-blue-text" href="catering.html">Catering</a></li>
+</ul>
+<nav class="nav-down" id="top-nav">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">The Colored Egg</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html#about">About</a></li>
+        <li><a class="dropdown-button" data-activates="menu-dropdown" href="#">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a id="nav-link" href="#">Home</a></li>
+        <li><a id="nav-link" href="#about">About</a></li>
+        <li><a id="nav-link" href="sweets.html">Menu</a></li>
+        <li><a id="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<div class="row"></div>
+
+<body>
+
+<div class="section scrollspy">
+  <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center"> 
+            <h2>Contact Us</h2>
+            <p class="caption"><span class="light-blue-text">p.</span> 770.718.6676</p>
+          <p class="caption"><span class="light-blue-text">e.</span> info@thecoloredegg.com</p>
+          <div class="row"></div>
+          </div>
+          <div class="col s12 m6">
+            <form method="post" name="emailform" action="contact.php">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="first_name" type="text" class="validate" name="name">
+                  <label for="first_name">Full Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate" name="email_content">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="subject" type="text" class="validate" name="subject">
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+                  <label for="textarea1">Message</label>
+                </div>
+              </div>
+              <button class="btn waves-effect red waves-light" type="submit" name="submit" value="submit">Submit
+              <i class="material-icons right">send</i>
+            </button>
+            </form>
+            <div class="row"></div>
+          </div>
+
+
+          <div class="col s12 m6" id="map">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.1922600601774!2d-83.82822188445941!3d34.294644312363694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5f6ecd4bbc009%3A0xa86770f2a5b028c0!2sColored+Egg!5e0!3m2!1sen!2sus!4v1453666136909" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+</div>  
+</div>
+  
+
+</body>
+
+ 
+
+  <footer class="page-footer light-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m3 center">
+          <h5 class="white-text">Location</h5>
+          <p class="grey-text text-lighten-4">610 Grove Street<br>Gainesville, GA 30351</p>
+        </div>
+       <div class="col s6 m3 center">
+          <h5 class="white-text">Pick-up/Delivery Hours</h5>
+          <p class="grey-text text-lighten-4">Mon - Sun: 7am-6pm</p>
+        </div>
+        <div class="col s6 m3 center">
+          <h5 class="white-text">Dining Hours </h5>
+          <p class="grey-text text-lighten-4">Tuesdays: 7am-2pm<br>Thursdays: 7am-2pm</p>
+        </div>
+         <div class="col s6 m3 center">
+            <h5 class="white-text">Get in Touch </h5>
+            <p class="grey-text text-lighten-4">info@thecoloredegg.com<br>770.718.6676</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      ©2016 The Colored Egg
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/nav-hide.js"></script>
+  </body>
+</html>
