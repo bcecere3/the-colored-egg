@@ -13,6 +13,7 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: 17px !important;
 }
 nav{
   background-color: rgba(0,0,0,0.5);
@@ -137,4 +138,34 @@ footer.page-footer {
 .custom-header{
   line-height: 35px;
   margin-top: 0;
+}
+.underline{
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.small-margin-bottom{
+  margin-bottom: 2px;
+}
+.food-category{
+  padding-top: 10px;
+}
+.card-title{
+  font-weight: 400 !important;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.card{
+  min-height: 375px !important;
+}
+.secondary-text{
+  font-size: 20px;
+  font-style: italic;
+}
+.no-margin{
+  margin: 0;
+}
+.gallery-img{
+  width: 100%;
+  margin-bottom: 1em;
 }
