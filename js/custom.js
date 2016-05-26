@@ -21,6 +21,20 @@ $('a[href*=#]:not([href=#])').click(function() {
 $('.local-link').click(function(){
   var dragTarget = $('.drag-target');
   $('#nav-mobile').css('left', -250);
-  dragTarget.css({width: '', right: '', left: '0'});
-  $('#sidenav-overlay').css('opacity', 0);
+  // dragTarget.css({width: '', right: '', left: '0'});
+  $('body').css('overflow', '');
+          $('#sidenav-overlay').velocity({opacity: 0}, {duration: 200, queue: false, easing: 'easeOutQuad',
+            complete: function() {
+              $(this).remove();
+            } });
+            // Reset phantom div
+            dragTarget.css({width: '', right: '', left: '0'});
+            $('#nav-mobile').velocity(
+              {left: -1 * (240 + 10)},
+              { duration: 200,
+                queue: false,
+                easing: 'easeOutCubic'
+
+            });
+  // $('#sidenav-overlay').css('display', 'none');
 });
