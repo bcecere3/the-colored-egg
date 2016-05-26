@@ -17,3 +17,10 @@ $('a[href*=#]:not([href=#])').click(function() {
     $('select').material_select();
   });
        
+
+$('.local-link').click(function(){
+  var dragTarget = $('.drag-target');
+  $('#nav-mobile').css('left', -250);
+  dragTarget.css({width: '', right: '', left: '0'});
+  $('#sidenav-overlay').css('opacity', 0);
+});

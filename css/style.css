@@ -102,6 +102,8 @@ footer.page-footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  position: relative;
+  text-align: center;
 }
 #center-logo{
   padding-top: 25em;
@@ -168,4 +170,60 @@ footer.page-footer {
 .gallery-img{
   width: 100%;
   margin-bottom: 1em;
+}
+.footer-p{
+  opacity: 0.75;
+}
+#awning{
+  height: 14.3rem;
+  margin-top: -3.1rem;
+}
+#awning-mobile{
+    display: none;
+  }
+.contact-btn{
+  margin-top: 13px;
+}
+#home-arrow{
+  position: absolute;
+  bottom: 0;
+  left: 0 !important;
+  right: 0 !important;
+
+}
+#home-arrow > i{
+  font-size: 72px !important;
+  background-color: rgba(0,0,0,0.3);
+}
+@media( min-width: 600px){
+  #catering-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+@media(max-width: 450px){ /*Mobile*/
+  #awning{
+    display: none;
+  }
+  #awning-mobile{
+    display: initial;
+    margin-top: 4rem;
+  }
+  #text-logo{
+    width: 90% !important;
+    max-width: 100% !important;
+  }
+  #center-logo{
+    padding-top: 21rem;
+  }
+  #index-banner{
+    background-image: url("../img/colored_egg_bg_mobile.jpg");
+  }
+}
+@media(max-width: 800px){
+  #text-logo{
+    width: 90% !important;
+    max-width: 100% !important;
+  }
 }
