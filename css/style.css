@@ -97,7 +97,7 @@ footer.page-footer {
   margin: 0;
 }
 #index-banner{
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   background-image: url("../img/colored_egg_bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
